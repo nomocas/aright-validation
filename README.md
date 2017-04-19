@@ -1,6 +1,6 @@
 # aright-validation
 
-Validation pragmatics engine for [aright-lexicon](https://github.com/nomocas/aright-lexicon) (a babelute DSL aimed for Object and Types validation)
+Validation pragmatics engine for [aright-lexicon](https://github.com/nomocas/aright-lexicon) (a [babelute](https://github.com/nomocas/babelute) DSL aimed for Object and Types validation)
 
 [![Travis branch](https://img.shields.io/travis/nomocas/aright-validation/master.svg)](https://travis-ci.org/nomocas/aright-validation)<br>
 [![bitHound Overall Score](https://www.bithound.io/github/nomocas/aright-validation/badges/score.svg)](https://www.bithound.io/github/nomocas/aright-validation)<br>
