@@ -16,6 +16,7 @@ describe("is string success", () => {
 		expect(result).to.equals(true);
 	});
 });
+
 describe("is string fail", () => {
 	const result = v.isString().$validate(12);
 	it("should", () => {
