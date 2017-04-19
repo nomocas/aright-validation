@@ -5,13 +5,11 @@
  */
 
 /*
-	Todo : 
-		haltOnFirstError (default false) flag
-		
-			or, not, optional check : haltOnFirstError = true
+	@Todo : haltOnFirstError (default false) flag
+		or, not, optional check : haltOnFirstError = true
 
 
-		how ask question on sentence ?
+	@Todo :	how ask question on sentence ?
 			ex: nullable
 
 			first solution : as lexems :
@@ -30,16 +28,17 @@
 					getDefault
 			
 
-		Wrap rule in is* call
+	@Todo :	Wrap rule in is* call
 		v
 		.isObject(v.object('foo', v.string('bar')))
 		.isString(v.object())
 		.isBoolean();
 
 
-		.belongsToMe() ==> custom check on session.userId and userId field
+	@Todo :	.belongsToMe() ==> custom check on session.userId and userId field
 
-		.updateDate() ==> custom handler that set date
+	@Todo :	.updateDate() ==> custom handler that set date
+
 
  */
 
