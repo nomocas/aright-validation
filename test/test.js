@@ -8,8 +8,6 @@ import '../src/index';
 
 const v = arightLexicon.initializer();
 const expect = chai.expect;
-for(const i in v)
-console.log('v', i, v[i]);
 //________________ is* family
 
 describe("is string success", () => {
