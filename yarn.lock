@@ -107,6 +107,12 @@ argparse@^1.0.7:
   dependencies:
     sprintf-js "~1.0.2"
 
+aright-lexicon@^0.1.1:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/aright-lexicon/-/aright-lexicon-0.1.2.tgz#37269225436464365aad6dbf9ccc6c3e5d197cf5"
+  dependencies:
+    babelute "^0.5.0"
+
 arr-diff@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/arr-diff/-/arr-diff-2.0.0.tgz#8f3b827f955a8bd669697e4a4256ac3ceae356cf"
@@ -643,6 +649,10 @@ babelrc-rollup@^3.0.0:
   resolved "https://registry.yarnpkg.com/babelrc-rollup/-/babelrc-rollup-3.0.0.tgz#fcecdbe3eb6400cf4e769233c1786a2fafe8b56c"
   dependencies:
     resolve "^1.1.7"
+
+babelute@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/babelute/-/babelute-0.5.0.tgz#2cff204df48cd458e05ba35508f94d4ec78026b7"
 
 babylon@^6.11.0, babylon@^6.13.0, babylon@^6.15.0:
   version "6.15.0"
@@ -2215,11 +2225,7 @@ isstream@~0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
 
-istanbul-lib-coverage@^1.0.0:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/istanbul-lib-coverage/-/istanbul-lib-coverage-1.0.1.tgz#f263efb519c051c5f1f3343034fc40e7b43ff212"
-
-istanbul-lib-coverage@^1.0.2:
+istanbul-lib-coverage@^1.0.0, istanbul-lib-coverage@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/istanbul-lib-coverage/-/istanbul-lib-coverage-1.0.2.tgz#87a0c015b6910651cb3b184814dfb339337e25e1"
 
@@ -3329,15 +3335,9 @@ rollup-watch@^3.2.2:
   dependencies:
     require-relative "0.8.7"
 
-rollup@^0.41.6:
+rollup@^0.41.6, rollup@^0.x:
   version "0.41.6"
   resolved "https://registry.yarnpkg.com/rollup/-/rollup-0.41.6.tgz#e0d05497877a398c104d816d2733a718a7a94e2a"
-  dependencies:
-    source-map-support "^0.4.0"
-
-rollup@^0.x:
-  version "0.41.4"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-0.41.4.tgz#a970580176329f9ead86854d7fd4c46de752aef8"
   dependencies:
     source-map-support "^0.4.0"
 

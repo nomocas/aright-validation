@@ -43,7 +43,7 @@
  */
 
 import babelute from 'babelute';
-import arightLexicon from 'aright-lexicon/src/index';
+import arightLexicon from 'aright-lexicon';
 
 const replaceShouldBeRegExp = /%s/g,
 	i18n = function(rule, language) {

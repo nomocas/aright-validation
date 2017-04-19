@@ -3,12 +3,13 @@
  */
 /* global describe, it */
 import chai from 'chai';
-import arightLexicon from 'aright-lexicon/src/index';
+import arightLexicon from 'aright-lexicon';
 import '../src/index';
 
 const v = arightLexicon.initializer();
 const expect = chai.expect;
-
+for(const i in v)
+console.log('v', i, v[i]);
 //________________ is* family
 
 describe("is string success", () => {
